@@ -1,0 +1,299 @@
+/*
+* Theme Name: Unique - Responsive vCard Template
+* Author: lmpixels
+* Author URL: http://themeforest.net/user/lmpixels
+* Version: 1.0.9
+*/
+
+/* =============================================================================
+
+1. Main
+2. Tables
+
+============================================================================= */
+
+
+/* ============================================================================= 
+1. Main
+============================================================================= */
+/* Dark Template Style */
+.pt-page {
+  background-color: #222;
+}
+
+.pt-page.section-without-bg {
+  background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+p {
+  color: #e5e5e5;
+}
+
+.section-title {
+  color: #555;
+}
+
+input[type=submit],
+input[type=button],
+button,
+a.button {
+  color: #fff;
+}
+
+.form-control,
+.form-control:focus,
+.has-error .form-control,
+.has-error .form-control:focus {
+  color: #eee;
+  border-color: #555;
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+  background-color: #888;
+}
+
+.info-block-w-icon .pe-7s-icon {
+  color: #aaa;
+}
+
+.home-page-block h2 {
+  color: #ff724c;
+}
+
+.home-page-description {
+  color: #888;
+}
+
+.info-list li .title {
+  color: #fff;
+}
+
+.info-list li .value {
+  color: #eee;
+}
+
+ul.social-links li a {
+    display: inline-block;
+    margin: 0 1px;
+    width: 34px;
+    height: 34px;
+    color: #e5e5e5;
+    background-color: transparent;
+    border: 1px solid #555;
+    text-align: center;
+}
+
+ul.social-links li a:hover {
+    color: #fff;
+    background-color: #ff724c;
+    border-color: transparent;
+}
+
+.testimonial-content .testimonial-text {
+  background-color: #282828;
+  border-color: #444;
+}
+
+.testimonial-author {
+  color: #e5e5e5;
+}
+
+.testimonial-picture img {
+  border-color: #444;
+}
+
+.testimonials.owl-carousel .owl-nav .owl-prev,
+.testimonials.owl-carousel .owl-nav .owl-next {
+  background-color: #555;
+}
+
+.fun-fact-block {
+  background-color: transparent;
+}
+
+.fun-fact-block.gray-bg {
+  background-color: #282828;
+}
+
+.skill-percentage {
+  border-color: #222;
+}
+
+.timeline {
+  border-color: #282828;
+}
+
+.portfolio-page-nav > div.nav-item a {
+  color: #aaa;
+}
+
+.share-buttons a {
+  background-color: #999;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.mobile-header {
+  background-color: #222;
+  border-color: #444;
+}
+
+.mobile-header .mobile-site-title {
+  color: #fff;
+}
+
+.header-search input.form-control {
+  border-color: #555;
+}
+
+.page-portfolio-loaded,
+.portfolio-page-content {
+  background-color: #222;
+}
+
+.blog-card .post-info {
+  background-color: #353535;
+}
+
+.blog-card .post-info {
+  border-color: #353535;
+}
+
+.blog-card .post-without-f-image {
+  background-color: #444;
+}
+
+.site-content footer.entry-meta,
+.post-navigation a,
+.entry-meta .divider {
+  color: #555;
+}
+
+.post-navigation a {
+  color: #444;
+}
+
+.entry-meta .share-buttons a,
+.tags a, .tags li a, .tagcloud a {
+  background-color: #666;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.blog-sidebar .sidebar-item {
+  border-color: #444; 
+}
+
+.blog-sidebar a {
+    color: #e5e5e5;
+}
+
+.sidebar-toggle {
+  background-color: #222;
+  border-color: #444;
+}
+
+.calendar_wrap th {
+  color: #888;
+  background: #353535;
+}
+
+.calendar_wrap td {
+  background: #555;
+  color: #b3b3b3;
+}
+
+.calendar_wrap td a {
+  color: #fff;
+}
+
+.list-view .site-content article {
+  border-color: #555;
+}
+
+.archive-title,
+.page-title {
+  color: #777;
+}
+
+.paging-navigation a {
+  color: #555;
+}
+
+.paging-navigation a:hover {
+  color: #777;
+}
+
+.entry-meta.entry-tags-share {
+  background-color: #333;
+}
+
+.comment-metadata {
+  border-color: #777;
+  color: #777;
+}
+
+.comment-list .trackback a, .comment-list .pingback a, .comment-metadata a {
+  color: #777;
+}
+
+
+/* ============================================================================= 
+2. Tables
+============================================================================= */
+.fw-pricing .fw-package {
+  border-color: #444;
+}
+
+.fw-pricing .fw-package-wrap.highlight-col .fw-package {
+  border-color: #666;
+  -webkit-box-shadow: 0 0 12px rgba(255, 255, 255, 0.12);
+  -moz-box-shadow: 0 0 12px rgba(255, 255, 255, 0.12);
+  -o-box-shadow: 0 0 12px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.12);
+}
+
+.fw-pricing .fw-package:hover,
+.fw-pricing .fw-package-wrap.highlight-col .fw-package:hover {
+  -webkit-box-shadow: 0 0 24px rgba(255, 255, 255, 0.14);
+  -moz-box-shadow: 0 0 24px rgba(255, 255, 255, 0.14);
+  -o-box-shadow: 0 0 24px rgba(255, 255, 255, 0.14);
+  box-shadow: 0 0 24px rgba(255, 255, 255, 0.14);
+}
+
+.fw-table,
+.fw-table table,
+.fw-table table tr,
+.fw-table table th,
+.fw-table table td {
+  border-color: #444;
+}
+/*
+     FILE ARCHIVED ON 14:09:30 Jan 19, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:26:34 Sep 16, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.4
+  exclusion.robots: 0.039
+  exclusion.robots.policy: 0.017
+  esindex: 0.017
+  cdx.remote: 118.902
+  LoadShardBlock: 414.365 (3)
+  PetaboxLoader3.datanode: 170.285 (4)
+  PetaboxLoader3.resolve: 301.13 (3)
+  load_resource: 124.191
+*/
